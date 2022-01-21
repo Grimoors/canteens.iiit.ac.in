@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://Grim:Reaper@dasscluster.cvybz.mongodb.net/CanteenData?retryWrites=true&w=majority"
+}

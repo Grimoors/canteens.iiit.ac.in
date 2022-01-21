@@ -1,0 +1,40 @@
+{
+  "name": "canteens.iiit.ac.in_backend",
+  "version": "1.0.0",
+  "description": "Backend using Node and Express",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serve.js",
+    "server": "nodemon serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grimoors/canteens.iiit.ac.in.git"
+  },
+  "keywords": [
+    "Mern",
+    "Node",
+    "Express",
+    "Canteen"
+  ],
+  "author": "Grimoors",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Grimoors/canteens.iiit.ac.in/issues"
+  },
+  "homepage": "https://github.com/Grimoors/canteens.iiit.ac.in#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "concurrently": "^7.0.0",
+    "config": "^3.3.7",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "validation": "^0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
