@@ -29,7 +29,7 @@ router.get('/:id', (req, res) => {
     .catch(err => res.status(404).json({ nobookfound: 'No Book found' }));
 });
 
-// @route POST api/books
+// @route GET api/books
 // @description add/save book
 // @access Public
 router.post('/', (req, res) => {
